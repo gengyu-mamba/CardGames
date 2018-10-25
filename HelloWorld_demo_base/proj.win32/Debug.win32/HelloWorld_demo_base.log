@@ -1,0 +1,14 @@
+﻿Build started 2018/10/25 23:37:14.
+     1>Project "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\HelloWorld_demo_base.vcxproj" on node 4 (Build target(s)).
+     1>PreLinkEvent:
+         if not exist "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\Debug.win32\" mkdir "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         HelloWorld_demo_base.vcxproj -> D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\Debug.win32\HelloWorld_demo_base.exe
+     1>Done Building Project "D:\Program Files\cocos2d-x-2.2.6\projects\HelloWorld_demo_base\proj.win32\HelloWorld_demo_base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23
