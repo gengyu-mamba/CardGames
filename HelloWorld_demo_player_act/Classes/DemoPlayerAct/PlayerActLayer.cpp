@@ -70,10 +70,10 @@ void PlayerActLayer::onExit()
 	CCLayer::onExit();
 
 	//手动new的对象都需要手动delete
-	CC_SAFE_DELETE(m_pPlayerHead[0]);
+/* 	CC_SAFE_DELETE(m_pPlayerHead[0]);
 	CC_SAFE_DELETE(m_pPlayerHead[1]);
 	CC_SAFE_DELETE(m_pPlayerHead[2]);
-	CC_SAFE_DELETE(m_pPlayerHead[3]);
+	CC_SAFE_DELETE(m_pPlayerHead[3]); */
 }
 
 void PlayerActLayer::update(float dt)
