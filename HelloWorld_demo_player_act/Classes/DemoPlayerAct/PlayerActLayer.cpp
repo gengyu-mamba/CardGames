@@ -79,6 +79,7 @@ void PlayerActLayer::onExit()
 void PlayerActLayer::update(float dt)
 {
 
+
 }
 
 void PlayerActLayer::OnBtnHappy(CCObject *pBtn)
