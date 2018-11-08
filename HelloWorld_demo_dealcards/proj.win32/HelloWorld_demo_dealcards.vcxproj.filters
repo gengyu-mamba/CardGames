@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DemoCard">
+      <UniqueIdentifier>{b8ef6087-fac2-41d5-b354-0a98fdff8622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\SendCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\DealCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\SpriteCardManage.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\HandCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\SendCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\DealCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\SpriteCardManage.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\HandCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

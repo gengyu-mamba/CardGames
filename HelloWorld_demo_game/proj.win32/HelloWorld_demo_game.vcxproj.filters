@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DemoBase">
+      <UniqueIdentifier>{ef472d88-e255-40f0-91d7-c43881e6acdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DemoCard">
+      <UniqueIdentifier>{5d8f787e-6f99-413f-a2f0-1af84b001879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DemoPlayerAct">
+      <UniqueIdentifier>{297fd439-0860-47f3-8ef9-eb9ca718b5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DemoGame">
+      <UniqueIdentifier>{af0ae128-1cdf-49ee-9048-84ceffba7b07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoBase\DemoLayer.cpp">
+      <Filter>Classes\DemoBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\DealCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\HandCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\SendCardLayer.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoCard\SpriteCardManage.cpp">
+      <Filter>Classes\DemoCard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoPlayerAct\PlayerActLayer.cpp">
+      <Filter>Classes\DemoPlayerAct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoPlayerAct\PlayerHead.cpp">
+      <Filter>Classes\DemoPlayerAct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\BaseCard.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\DealCard.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\GameClock.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\GameLayer.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\OtherHandCard.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\SelfHandCard.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DemoGame\SendCard.cpp">
+      <Filter>Classes\DemoGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoBase\DemoLayer.h">
+      <Filter>Classes\DemoBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\DealCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\HandCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\SendCardLayer.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoCard\SpriteCardManage.h">
+      <Filter>Classes\DemoCard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoPlayerAct\PlayerActLayer.h">
+      <Filter>Classes\DemoPlayerAct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoPlayerAct\PlayerHead.h">
+      <Filter>Classes\DemoPlayerAct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\BaseCard.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\DealCard.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\GameClock.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\GameLayer.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\OtherHandCard.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\PositionConfig.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\SelfHandCard.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DemoGame\SendCard.h">
+      <Filter>Classes\DemoGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
